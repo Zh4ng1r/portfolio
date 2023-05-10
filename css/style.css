@@ -1,0 +1,251 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+/* Burger menu */
+
+.hamburger {
+    display: block;
+    width: 30px;
+    height: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: none;
+}
+  
+.line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+    margin-bottom: 5px;
+}
+
+.container{
+    width: 945px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+
+header{
+    margin-top: 33px;
+    border-bottom: 2px solid #828282;
+}
+
+.navigation-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.navigation-text_li{
+    text-decoration: none;
+    color: #828282;
+    transition: 0.3s all ease;
+}
+
+.navigation-text_li:hover{
+    color: black;
+}
+
+/* Main Page */
+
+.mainPage{
+    padding-top: 40px;
+}
+
+.mainPage-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.mainPage-text1{
+    font-size: 47px;
+}
+
+.mainPage-text2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mainPage-text3{
+    font-size: 16px;
+    rotate: -90deg;
+}
+
+.mainPng{
+    padding-bottom: 104px;
+}
+
+/* About Me */
+.container_aboutMe {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+
+    background-color: #F6F6F6;
+    height: 100%;
+}
+
+.aboutMe{
+    grid-column-start: 2;
+}
+
+.aboutMe h2{
+    display: grid;
+    justify-items: center;
+    grid-column-start: 2;
+
+    font-size: 34px;
+    padding: 120.25px 0  17.9px 0;
+}
+
+.aboutMe-text{
+    grid-column-start: 2;
+}
+
+.aboutMe-text p{
+    font-size: 18px;
+    font-weight: 500;
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutMe-text p:last-child{
+    margin-bottom: 107px;
+}
+
+/* Page Skills */
+
+.skills{
+    margin-top: 91px;
+}
+
+.skills h2{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+
+    margin-bottom: 24px;
+}
+
+.skills p{
+    font-size: 18px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsGroup{
+    margin-top: 83px;
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.skill{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.skill img{
+    margin-bottom: 24px;
+}
+
+.rating{
+    margin-top: 40.41px;
+}
+
+
+/* PortfolioPage */
+
+.portfolio{
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F6;
+}
+
+.portfolio_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio_page h2{
+    font-size: 34px;
+    margin-top: 112px;
+}
+
+.portfolio_item{
+    margin-top: 99px;
+    margin-bottom: 96px;
+}
+
+.portfolio_item a {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+
+    color: black;
+}
+
+/* Footer */
+.footer{
+    margin-top: 114px;
+}
+
+.footerPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerPage h2{
+    font-size: 34px;
+}
+
+.footerPage p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footerButton{
+    margin-top: 29.6px;
+    padding: 8px 27px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.socialMediaItems{
+    margin-top: 85px;
+    display: flex;
+    gap: 61px;
+}
+
+.footerPage h6{
+    margin-top: 40px;
+    margin-bottom: 123px;
+    text-align: center;
+}

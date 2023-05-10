@@ -1,0 +1,47 @@
+@media screen and (max-width: 375px) {
+    header{
+        float: right;
+        border-bottom: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .navigation-text{
+        display: none;
+    }
+
+    .mainPage-text2{
+        margin-top: 23px;
+    }
+
+    .mainPage-text3{
+        display: none;
+    }
+
+    .mainPage-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        float: left;
+    }
+
+    .container_aboutMe{
+        display: flex;
+    }
+    
+    .skillsGroup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill{
+        margin-top: 81px;
+    }
+
+    .portfolio_item{
+        text-align: center;
+    }
+} 
